@@ -22,14 +22,14 @@ module.exports = [{
 }, {
     option: '-start',
     aliases: ['-s'],
-    description: 'Where the effect will start to be applied (in bytes), evaled. This is very influential to the result, be sure to change it if you\'re not happy with it. Defaults to 5000',
+    description: 'Where the effect will start to be applied (in bytes), evaled (meaning you can do stuff like 12*MB to easily express 12 megabytes in bytes). This is very influential to the result, be sure to change it if you\'re not happy with it. Defaults to 5000',
     displayArgs: '[path]',
     requiresArgs: true,
     setVar: 'start' 
 }, {
     option: '-end',
     aliases: [],
-    description: 'Where the effect will stop being applied (in bytes), evaled. This is very influential to the result, be sure to change it if you\'re not happy with it. Defaults to the video size minus 1/12 of itself in bytes.',
+    description: 'Where the effect will stop being applied (in bytes), evaled (meaning you can do stuff like 12*MB to easily express 12 megabytes in bytes). This is very influential to the result, be sure to change it if you\'re not happy with it. Defaults to the video size minus 1/12 of itself in bytes.',
     displayArgs: '[path]',
     requiresArgs: true,
     setVar: 'end' 
