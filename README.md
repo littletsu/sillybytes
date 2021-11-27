@@ -85,7 +85,7 @@ module.exports = (byte, prev, chunk, i) => {
 };
 ```
 
-and just like that your effect will now have a description in the `-effects` option!
+and just like that your effect will now have a description in the `-effects` option! be sure to give your effect a meaningful description if youre gonna give it one, which atleast tells what is being returned.
 <br><br>
 (if an effect doesn't have a description, it will just default to `move the bytes all arround, no specific effect desired`)
 <br><br>
