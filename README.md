@@ -76,7 +76,7 @@ this function is a very simple effect that will return the byte that is passed o
 along with these parameters, there are also global variables and functions that can be used:
 
 ```js
-global._buf; // array of all the chunks that have been read and modified.
+global._buf; // array of all the chunks that have been read and modified. a chunk is only added to this array when its finished being modified.
 global.readed; // how many bytes of the file have been read
 global.chunkI; // the position/index of the current chunk in "global._buf"
 global.prog; // increments every time a byte is modified, starts at 0
