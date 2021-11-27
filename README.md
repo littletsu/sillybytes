@@ -91,3 +91,9 @@ and just like that your effect will now have a description in the `-effects` opt
 <br><br>
 
 > effects dont have to be too complicated, neither do you have to know what you're even doing. be as creative as you want with them! (as long as they work, of course)
+
+# cool media made with sillybytes
+
+[imgur gallery with screenshots from videos manipulated while experimenting with effects](https://imgur.com/a/lUc47iY)
+<br><br>
+(if you have more cool stuff, preferably images, that youve made with this, send it to me for it to be added here!)
