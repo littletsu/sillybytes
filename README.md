@@ -46,8 +46,7 @@ Done
 # adding effects
 
 before adding an effect, its important to know what an effect is, and what it does.<br><br>
-an effect is nothing but a **function that will be executed for every byte, with some parameters** such as the **current byte, the previous byte, the chunk of bytes that is currently being modified, and the index of the byte in that chunk**. the effect's job is to return a byte which can based or influenced by those parameters. for more indepth on how an effect works, look at the `./effects` folder and open the contents of an effect.
-
+an effect is nothing but a **function that will be executed for every byte, with some parameters** such as the **current byte, the previous byte, the chunk of bytes that is currently being modified, and the index of the byte in that chunk**. the effect's job is to return a byte which can based or influenced by those parameters. for more indepth on how an effect works, look at the `./effects/` folder and open the contents of an effect.
 <br><br>
 to add an effect, add a javascript file on `./effects/` with the effect name, if for example your effect name was `cooleffect` you would add a file on `./effects/` with the name `cooleffect.js`.<br>
 
@@ -64,7 +63,7 @@ this function is a very simple effect that will return the byte that is passed o
 `prev` - the previous byte that was passed through this function. if this is the first time the function is being executed, this will be `0`.<br>
 `chunk` - the chunk of bytes that is currently being read. see `fs.createReadStream` for more indepth on how files are being read.<br>
 `i` - the position/index of `byte` in the current chunk.<br><br>
-along with these parameters, there are also global variables that can be used:
+along with these parameters, there are also global variables and functions that can be used:
 
 ```js
 global._buf; // array of all the chunks that have been read and modified.
