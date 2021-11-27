@@ -2,6 +2,16 @@
 
 Apply effects to bytes in a file and output them, mainly used to glitch data in videos but can have other uses.
 
+# table of contents
+
+-   [usage](#usage)
+    -   [installation](#installation)
+        -   [requirements](#requirements)
+    -   [examples](#examples)
+-   [adding effects](#adding-effects)
+    -   [effect descriptions](#effect-descriptions)
+-   [cool media made with sillybytes](#cool-media-made-with-sillybytes)
+
 # usage
 
 ## installation
