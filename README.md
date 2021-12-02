@@ -39,7 +39,7 @@ node index
 Use effect `6` on a file at `eliacore.avi` which size is `192264720` bytes and output on `elia.avi` starting at 45MB and ending at 160MB
 
 ```
-> node index2 -file output/eliacore.avi -output output/elia.avi -fx 6 -start 45*MB -end 160*MB
+> node index2 -file eliacore.avi -output elia.avi -fx 6 -start 45*MB -end 160*MB
 ```
 
 Expected output:
