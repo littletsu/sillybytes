@@ -39,7 +39,7 @@ node index
 Use effect `6` on a file at `eliacore.avi` which size is `192264720` bytes and output on `elia.avi` starting at 45MB and ending at 160MB
 
 ```
-> node index2 -file eliacore.avi -output elia.avi -fx 6 -start 45*MB -end 160*MB
+> node index -file eliacore.avi -output elia.avi -fx 6 -start 45*MB -end 160*MB
 ```
 
 Expected output:
@@ -49,7 +49,7 @@ Starting (192264720 offsets 47185920-167772160) with effect (byte, prev, chunk, 
     return byte < 127 ? (chunk[i*10]) || (byte - (prog % 21)) || byte : byte > 55 ? byte == 33 ? chunk[i-10] || 127 : prev + 11 : 0;
 } (effect name: 6)
 192/192 megabytes modified (true, false)
-Writing to output/elia.avi...
+Writing to elia.avi...
 Done
 ```
 
